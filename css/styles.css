@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background: url("../img/jaguar-xe.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type="button"]{
+  background-color: #db3030;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 20px 30px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+input[type="button"]:hover{
+  background-color: white;
+  color: #db3030;
+  cursor: pointer;
+}
+
+.main-content .wrapper{
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6);
+  color: #FBFCFD;
+  max-width: 600px;
+  top: 80px;
+  left: 70px;
+  border-radius: 10px;
+}
+
+.main-content .wrapper h1{
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.main-content .wrapper p{
+  margin: 20px 30px; 
+  line-height: 1.4;
+}
+
+@media (max-width: 576px) {
+
+  .main-content .wrapper{
+    width: 400px;
+  }
+
+}
+
+
+
