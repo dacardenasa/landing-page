@@ -9,7 +9,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
 }
 
 input[type="button"]{
