@@ -4,7 +4,7 @@
 
 body {
   height: 100%;
-  background: url("../img/jaguar-xe.jpg") no-repeat center center fixed; 
+  background: url("../img/jaguar-xe.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,25 +12,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-input[type="button"]{
-  background-color: #db3030;
-  font-weight: bold;
-  color: white;
-  margin: 0 0 20px 30px;
-  border: none;
-  padding: 10px 20px;
-  font-size: 15px;
-}
-
-input[type="button"]:hover{
-  background-color: white;
-  color: #db3030;
-  cursor: pointer;
-}
-
 .main-content .wrapper{
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #FBFCFD;
   max-width: 600px;
   top: 80px;
@@ -40,12 +24,32 @@ input[type="button"]:hover{
 
 .main-content .wrapper h1{
   margin-left: 30px;
-  font-weight: bold;
+  font-weight: 700;
+
 }
 
 .main-content .wrapper p{
-  margin: 20px 30px; 
+  margin: 20px 30px;
   line-height: 1.4;
+}
+
+.btn-style {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 0 20px 30px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: #db3030;
+  border-radius: 6px;
+  border: 2px solid #0000;
+}
+
+.btn-style:hover{
+  background-color: white;
+  color: #db3030;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
@@ -55,6 +59,4 @@ input[type="button"]:hover{
   }
 
 }
-
-
 
